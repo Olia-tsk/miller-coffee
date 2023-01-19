@@ -1,0 +1,59 @@
+.header
+  position: relative
+  height: 100vh
+  &-bg
+    position: absolute
+    right: 0
+    top: 0
+    z-index: -1
+  &-top
+    padding-top: 22px
+    margin-bottom: 92px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    & img
+      max-width: 260px
+      object-fit: contain
+  &-menu
+    display: flex
+    column-gap: 100px
+    &_item
+      & a
+        font-weight: 500
+        font-size: 25px
+        line-height: 30px
+        color: #000000
+  &-action
+    display: flex
+    column-gap: 53px
+    &_item
+      & svg
+        width: 33px
+        height: 32px
+        stroke: #000000
+  &-main
+    &_slide
+      position: relative
+
+.slide
+  &-img
+    position: absolute
+    margin-right: 132px
+    top: 0
+    right: 0
+  &-title
+    margin: 0
+    margin-bottom: 59px
+    font-weight: 900
+    font-size: 80px
+    line-height: 101px
+  &-desc
+    width: 45%
+    margin-bottom: 31px
+    font-weight: 500
+    font-size: 25px
+    line-height: 130%
+    // line-height: 32px
+    &:last-of-type
+      margin-bottom: 91px
